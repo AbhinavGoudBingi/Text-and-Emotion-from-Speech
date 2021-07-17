@@ -1,0 +1,70 @@
+curl -b cookies.txt -c cookies.txt --data 'uname=193070001&passwd=shivam1301%25' https://internet.iitb.ac.in
+06-May-21 14:36:19 - root - DEBUG - Model Parameters:
+06-May-21 14:36:19 - root - DEBUG - --------------------------------------
+
+06-May-21 14:36:19 - root - DEBUG - Number of CNN Layers         :3
+06-May-21 14:36:19 - root - DEBUG - Stride Length                :2
+06-May-21 14:36:19 - root - DEBUG - Dropout for CNN              :0.2
+06-May-21 14:36:19 - root - DEBUG - Number of Bi-GRU Layers      :3
+06-May-21 14:36:19 - root - DEBUG - Hidden Size                  :256
+06-May-21 14:36:19 - root - DEBUG - Batch Size                   :16
+06-May-21 14:36:19 - root - DEBUG - Learning rate                :0.001
+06-May-21 14:36:19 - root - DEBUG - Number of Epochs             :50
+06-May-21 14:36:19 - root - DEBUG - --------------------------------------
+
+
+06-May-21 14:36:22 - root - DEBUG - SpeechRecognitionModel loaded.
+06-May-21 14:36:22 - root - DEBUG -
+Criterion: CTCLoss
+Optimizer: Adam
+Scheduler: ReduceLROnPlateau with patience=5
+06-May-21 15:31:51 - root - DEBUG - Epoch: 1
+Train_loss: 2.2730, Train CER: 71.82%, Train WER: 96.42%
+06-May-21 15:36:09 - root - DEBUG - Val loss: 1.4623, Val CER: 43.09%, Val WER: 87.01%
+06-May-21 17:07:42 - root - DEBUG - Epoch: 2
+Train_loss: 1.4563, Train CER: 43.44%, Train WER: 87.17%
+06-May-21 17:11:57 - root - DEBUG - Val loss: 1.1962, Val CER: 36.00%, Val WER: 79.45%
+06-May-21 18:46:37 - root - DEBUG - Epoch: 3
+Train_loss: 1.2828, Train CER: 38.49%, Train WER: 82.53%
+06-May-21 18:51:01 - root - DEBUG - Val loss: 1.0864, Val CER: 32.21%, Val WER: 75.43%
+06-May-21 20:27:00 - root - DEBUG - Epoch: 4
+Train_loss: 1.1860, Train CER: 35.68%, Train WER: 79.41%
+06-May-21 20:31:26 - root - DEBUG - Val loss: 1.0143, Val CER: 30.19%, Val WER: 72.18%
+06-May-21 22:08:54 - root - DEBUG - Epoch: 5
+Train_loss: 1.1203, Train CER: 33.77%, Train WER: 77.13%
+06-May-21 22:13:18 - root - DEBUG - Val loss: 0.9558, Val CER: 28.63%, Val WER: 69.65%
+06-May-21 23:51:06 - root - DEBUG - Epoch: 6
+Train_loss: 1.0733, Train CER: 32.37%, Train WER: 75.29%
+06-May-21 23:55:31 - root - DEBUG - Val loss: 0.9299, Val CER: 27.81%, Val WER: 68.61%
+07-May-21 01:33:59 - root - DEBUG - Epoch: 7
+Train_loss: 1.0364, Train CER: 31.25%, Train WER: 73.76%
+07-May-21 01:38:23 - root - DEBUG - Val loss: 0.8941, Val CER: 26.68%, Val WER: 66.94%
+07-May-21 03:17:50 - root - DEBUG - Epoch: 8
+Train_loss: 0.9524, Train CER: 28.87%, Train WER: 70.46%
+07-May-21 03:22:21 - root - DEBUG - Val loss: 0.8474, Val CER: 24.94%, Val WER: 63.61%
+07-May-21 05:02:30 - root - DEBUG - Epoch: 9
+Train_loss: 0.9308, Train CER: 28.21%, Train WER: 69.52%
+07-May-21 05:07:02 - root - DEBUG - Val loss: 0.8374, Val CER: 24.65%, Val WER: 63.04%
+07-May-21 06:47:05 - root - DEBUG - Epoch: 10
+Train_loss: 0.9214, Train CER: 27.95%, Train WER: 69.19%
+07-May-21 06:51:37 - root - DEBUG - Val loss: 0.8329, Val CER: 24.54%, Val WER: 63.05%
+07-May-21 07:43:55 - root - DEBUG -
+07-May-21 07:43:55 - root - DEBUG - Model Parameters:
+07-May-21 07:43:55 - root - DEBUG - --------------------------------------
+
+07-May-21 07:43:55 - root - DEBUG - Number of CNN Layers         :3
+07-May-21 07:43:55 - root - DEBUG - Stride Length                :2
+07-May-21 07:43:55 - root - DEBUG - Dropout for CNN              :0.2
+07-May-21 07:43:55 - root - DEBUG - Number of Bi-GRU Layers      :3
+07-May-21 07:43:55 - root - DEBUG - Hidden Size                  :256
+07-May-21 07:43:55 - root - DEBUG - Batch Size                   :4
+07-May-21 07:43:55 - root - DEBUG - Learning rate                :0.001
+07-May-21 07:43:55 - root - DEBUG - Number of Epochs             :100
+07-May-21 07:43:55 - root - DEBUG - --------------------------------------
+
+
+07-May-21 07:43:58 - root - DEBUG - SpeechRecognitionModel loaded.
+07-May-21 07:43:58 - root - DEBUG -
+Criterion: CTCLoss
+Optimizer: Adam
+Scheduler: ReduceLROnPlateau with patience=5
