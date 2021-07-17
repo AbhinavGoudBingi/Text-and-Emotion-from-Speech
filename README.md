@@ -1,6 +1,8 @@
 ## CS-753 Project Abstract
 ### Title : speech to sign-language(with emotions) for the hearing-impaired
 
+This repository contains code for the project done as part of the course CS 753 - Automatic Speech Recognition under prof. Preethi Jyothi in the Spring 2019-20 Semester at IIT Bombay.
+
 1. Project Abstract
 
 	With the aim of converting speech to sign-language for the hearing-impaired, we first convert the speech to text and then from text to sign-language. In addition to this we also would like to extract the emotion conveyed by the speech signal and display it to them as well because the sign language itself by the hand does not convey any sort of emotion.
