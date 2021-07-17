@@ -1,7 +1,7 @@
 ## CS-753 Project Abstract
 ### Title : speech to sign-language(with emotions) for the hearing-impaired
 
-This repository contains code for the project done as part of the course CS 753 - Automatic Speech Recognition under prof. Preethi Jyothi in the Spring 2019-20 Semester at IIT Bombay.
+This repository contains code for the project done as part of the course CS 753 - Automatic Speech Recognition under prof. Preethi Jyothi in the Spring 2019-20 Semester at IIT Bombay. Our team for this project was Abhinav Goud Bingi(180050002), Soham Naha(193079003) and Mohit Agarwala(19307R004).
 
 1. Project Abstract
 
